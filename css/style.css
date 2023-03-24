@@ -3,32 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #0B3848;
-}
-
-h1{
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 30px;
   color: white;
-  
-}  
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
 
 .container{
-  width: 800px;
   display: flex;
-  margin: 20px auto;
   flex-wrap: wrap;
+  width: 1000px;
+  margin: 50px auto;
 }
+
 .box{
   width: 80px;
   height: 80px;
-  border: 1px solid black;
+  margin: 10px;
   display: flex;
   justify-content: center;
-  align-content: center;
-  text-align: center;
-  margin: 10px;
-}  
+  align-items: center;
+  background-color: #1389B2;
+  border: 1px solid #000;
+  color: brown;
+  font-size: 1.1rem;
+}
+
+.fizz{
+  background-color: #0AD6A1;
+}
+
+.buzz{
+  background-color: #FFD166;
+}
+
+.fizzbuzz{
+  background-color: #F0466F;
+  color: white;
+}
